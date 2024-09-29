@@ -3,7 +3,7 @@
 
 ```mermaid
 flowchart TD
-    Start([Start Game]) --> GenerateNum[Produce a Random Number](for example 1 -100)
+    Start([Start Game]) --> GenerateNum[Produce a Random Number]
     GenerateNum --> InputGuess[User Gives An Input]
     
     InputGuess --> CheckRange{Is Your Guess Within Range?}
